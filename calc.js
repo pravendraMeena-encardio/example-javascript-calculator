@@ -12,6 +12,10 @@ function divide(a, b) {
     if (b === 0) {
         return "Error: Cannot divide by zero";
 }
+
+function reminder(a,b) {
+    return a % b;
+}
 return a / b;
 }
 // Simple demonstration
@@ -21,4 +25,5 @@ console.log("10-4=", subtract(10, 4));
 console.log("5*6=", multiply(5, 6));
 console.log("15/3=", divide(15, 3));
 console.log("10/0=", divide(10, 0));
+console.log("reminder of 5/4 is",reminder(5,4));
 module.exports = { add, subtract, multiply, divide };
