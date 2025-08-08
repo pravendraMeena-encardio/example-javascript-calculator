@@ -17,4 +17,4 @@ jobs:
         with:
           node-version: '18'
       - name: Run calculator
-        run: node cal.js
+        run: node calc.js
