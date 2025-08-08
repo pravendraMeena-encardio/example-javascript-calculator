@@ -12,11 +12,10 @@ function divide(a, b) {
     if (b === 0) {
         return "Error: Cannot divide by zero";
 }
-
+return a / b;
+}
 function reminder(a,b) {
     return a % b;
-}
-return a / b;
 }
 // Simple demonstration
 console.log("Calculator Demo:");
